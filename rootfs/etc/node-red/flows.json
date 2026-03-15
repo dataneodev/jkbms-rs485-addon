@@ -1811,7 +1811,7 @@
         "z": "b1ca67b21089b915",
         "g": "4cfdd0fab949bb3c",
         "name": "Setup USB Port",
-        "func": "// récupère le port série à utiliser\n    msg.payload = {\n    \"serialport\": global.get(\"path\"),\n    \"serialbaud\": 115800,\n    \"databits\": 8,\n    \"parity\": \"none\",\n    \"stopbits\": 1,\n    \"enabled\": true\n    }\n\n    node.send(msg)",
+        "func": "// récupère le port série à utiliser\n    msg.payload = {\n    \"serialport\": global.get(\"path\"),\n    \"serialbaud\": 9600,\n    \"databits\": 8,\n    \"parity\": \"none\",\n    \"stopbits\": 1,\n    \"enabled\": true\n    }\n\n    node.send(msg)",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
